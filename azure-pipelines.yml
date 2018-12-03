@@ -28,8 +28,8 @@ steps:
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: True
 
-- task: AzureRmWebAppDeployment@3
-  inputs:
-    azureSubscription: 'dotcoread'
-    WebAppName: 'dotcoread'
-    Package: $(System.ArtifactsDirectory)/**/*.zip
+#- task: AzureRmWebAppDeployment@3
+#  inputs:
+#    azureSubscription: 'dotcoread'
+#    WebAppName: 'dotcoread'
+#    Package: $(System.ArtifactsDirectory)/**/*.zip
