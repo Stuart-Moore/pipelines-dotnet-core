@@ -33,6 +33,7 @@ namespace dotnetcore_sample
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            // Can haz new Artifact?
             services.AddMvc();
         }
 
